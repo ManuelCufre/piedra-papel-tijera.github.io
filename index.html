@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Piedra papal o tijera</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="usario">
+            <h2>Usuario</h2>
+            <div class="fichas-usuario">
+                <i id="piedra" class="fa-regular fa-hand-back-fist ficha"></i>
+                <i id="papel" class="fa-regular fa-hand ficha"></i>
+                <i id="tijera" class="fa-regular fa-hand-scissors ficha"></i>
+            </div>
+        </div>
+        <div class="versus">
+            <div id="mostrar-usuario">
+
+            </div>
+            <span>VS</span>
+            <div id="mostrar-maquina">
+
+            </div>
+        </div>
+        <div class="computadora">
+            <h2>Maquina</h2>
+           <div class="fichas-computadora">
+                <i id="1" class="fa-regular fa-hand-back-fist ficha-maquina"></i>
+                <i id="2" class="fa-regular fa-hand ficha-maquina"></i>
+                <i id="3" class="fa-regular fa-hand-scissors ficha-maquina"></i>
+           </div>
+        </div>
+    </div>
+    <div id="resultado">
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/f621a3aa95.js" crossorigin="anonymous"></script>
+</body>
+</html>
